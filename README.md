@@ -38,7 +38,8 @@ Diabetes and hypertension frequently co-occur and increase mortality risk.
 
 📸 Dashboard Preview
 
-![Dashboard Overview](images/dashboard_overview.png)
+![Dashboard Overview](Hospitalized-Covid_19-Patients-dashboard
+modeling.png)
 ![Age Distribution](images/age_distribution.png)
 ![Modeling Metrics](images/model_metrics.png)
 Replace these filenames with yours. Example below (remove if not using yet):
