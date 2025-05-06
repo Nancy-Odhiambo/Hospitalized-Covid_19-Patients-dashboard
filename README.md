@@ -8,14 +8,22 @@ It was developed as part of the Build Fellowship (February Cohort) under the men
 
 The goal was to explore how demographic and comorbidity factors influence the severity and outcomes of COVID-19 hospitalized cases using a well-structured exploratory data analysis data modeling and dashboard visualizations.
 
+🔍 **Data Processing & Modeling**
+
+- Preprocessing: Handled missing values (97/98/99), outlier removal, and binary encoding.
+- Feature Engineering: Grouped classification levels and transformed comorbidity indicators.
+- Model Used: Logistic Regression
+- Accuracy: ~82%, ROC AUC: High
+- Odds ratios and feature contributions were interpreted to highlight clinical risks.
+
 📊 **Dashboard Preview & Highlights**
 
 
-![Dashboard Overview](images/overview.png)
+![](images/overview.png)
 
 ![](images/Data_set.png)
 
-![Visualizations](images/violin.png)
+![](images/violin.png)
 
 *Age Distribution Analysis*
 
@@ -48,13 +56,6 @@ Pneumonia impact: Mortality rate jumps from 25.0% to 43.8% when present
 
 Since the project is mainly concerned with the outcome of patient based on whether the patient had a pre existing condition like asthma, diabetes, hpertension, copd e.t.c the model was trained to evaluate Logistic Regression model to predict the likelihood of a patient dying if a feature is set to Yes that is 1 and output its accuracy, precision, recall and F1-score.From the predictions the health care workers are able to understand the critical need to care for patients based on their pre existing conditions
 
-🔍 **Modeling & Analysis**
-
-- Preprocessing: Handled missing values (97/98/99), outlier removal, and binary encoding.
-- Feature Engineering: Grouped classification levels and transformed comorbidity indicators.
-- Model Used: Logistic Regression
-- Accuracy: ~82%, ROC AUC: High
-- Odds ratios and feature contributions were interpreted to highlight clinical risks.
 
 ⚙️ **Technologies Used**
 
