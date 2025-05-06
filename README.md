@@ -61,21 +61,17 @@ Odds ratios and feature contributions were interpreted to highlight clinical ris
 
 ⚙️ Technologies Used
 
-Tool	Purpose
+Tool Used
 
-Python	Core programming language
+Python	
 
-Pandas	Data cleaning and transformation
+Pandas	
 
-Streamlit	Dashboard development
+Streamlit
 
-Plotly	Interactive visualizations
+Plotly	
 
-Seaborn	Statistical graphics
-
-SQLAlchemy	Database connectivity
-
-PostgreSQL	Data storage & querying
+Seaborn	
 
 Scikit-learn	Model training & evaluation
 
