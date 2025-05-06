@@ -8,20 +8,22 @@ It was developed as part of the Build Fellowship (February Cohort) under the men
 
 The goal was to explore how demographic and comorbidity factors influence the severity and outcomes of COVID-19 hospitalized cases using a well-structured exploratory data analysis data modeling and dashboard visualizations.
 
-📊 Dashboard Highlights
-Developed using Streamlit the dashboard provides interactive insights across multiple dimensions:
+📊 Dashboard Preview & Highlights
+
+
+![Dashboard Overview](images/Data_set.png)
+![Visualizations](images/violin.png)
+![](images/cooccurence.png)
+![](images/severity.png)
+![Modeling Metrics](images/modeling.png)
 
 1. Age and Outcomes Visualization
 
-Violin and box plots to show how age distribution correlates with outcomes.
-
-Clear trends reveal increased ICU admissions, intubations and death with older age.
+Violin and box plots to show how age distribution correlates with outcomes.Clear trends reveal increased ICU admissions, intubations and death with older age.
 
 2. Severity vs Outcome
    
-Grouped bar chart compares patient severity levels (Mild, Moderate, Severe) against outcomes (Alive, Dead).
-
-Moderate cases surprisingly had a higher death rate than severe ones indicating care disparities.
+Grouped bar chart compares patient severity levels (Mild, Moderate, Severe) against outcomes (Alive, Dead).Moderate cases surprisingly had a higher death rate than severe ones indicating care disparities.
 
 3. Correlation Analysis
    
@@ -34,15 +36,6 @@ Features like pneumonia, classification level (moderate) show strong relationshi
 Heatmaps highlight co-occurrence patterns among comorbidities.
 
 Diabetes and hypertension frequently co-occur and increase mortality risk.
-
-
-📸 Dashboard Preview
-
-![Dashboard Overview](images/Data_set.png)
-![Visualizations](images/violin.png)
-![](images/cooccurence.png)
-![](images/severity.png)
-![Modeling Metrics](images/modeling.png)
 
 
 🔍 Modeling & Analysis
@@ -63,19 +56,7 @@ Odds ratios and feature contributions were interpreted to highlight clinical ris
 
 Tool Used
 
-Python	
-
-Pandas	
-
-Streamlit
-
-Plotly	
-
-Seaborn	
-
-Scikit-learn	Model training & evaluation
-
-Git & GitHub	Version control and collaboration
+Python, Pandas, Streamlit, Plotly, Seaborn, Scikit-learn, Git & GitHub	
 
 🧪 Project Structure
 
@@ -92,7 +73,7 @@ Data Cleaning Challenges: Removed unknown values (97, 98, 99)
 
 Outlier Management: Removed 6,053 age outliers (~3.24%)
 
-Class Imbalance: Mortality rate was 36.4%, addressed using balanced modeling
+Class Imbalance: Mortality rate was 36.4% addressed using balanced modeling
 
 ⚠️ Clinical Risk Factors
 
