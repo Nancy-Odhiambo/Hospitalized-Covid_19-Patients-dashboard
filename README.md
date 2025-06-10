@@ -30,7 +30,7 @@ The goal was to explore how demographic and comorbidity factors influence the se
 Age is a critical factor in COVID-19 outcomes. Analysis reveals:
 
 - Median age: 56.0 years (IQR: 43.0-67.0)
-- Mortality by age: Patients who died were significantly older (median 62.0 years) compared to survivors (median 51.0 years)
+- Mortality of patients by age: Patients who died were significantly older (median 62.0 years) compared to survivors (median 51.0 years)
 - Comorbidity age patterns: Patients with pneumonia averaged 56.5 years versus 52.0 years for those without
 
 ![](images/cooccurence.png)
